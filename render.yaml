@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: antonio-robles-migratorio
+    runtime: static
+    staticPublishPath: .
