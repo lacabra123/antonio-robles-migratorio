@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="oro-grad" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EBD9AF"/>
+      <stop offset="50%" stop-color="#C6A667"/>
+      <stop offset="100%" stop-color="#A88644"/>
+    </linearGradient>
+    <linearGradient id="oro-monograma" x1="14" y1="20" x2="50" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F2E4C2"/>
+      <stop offset="55%" stop-color="#D7BA7E"/>
+      <stop offset="100%" stop-color="#B89552"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Marco arquitectónico octogonal exterior -->
+  <path d="M12 4H52L60 12V52L52 60H12L4 52V12Z" stroke="url(#oro-grad)" stroke-width="1.5"/>
+  <!-- Filete interior fino -->
+  <path d="M14.5 8H49.5L56 14.5V49.5L49.5 56H14.5L8 49.5V14.5Z" stroke="url(#oro-grad)" stroke-width="0.7" stroke-opacity="0.52"/>
+
+  <!-- Estrella de orientación (derecho migratorio e internacional) -->
+  <path d="M32 10.6L33.05 13.15L35.6 14.2L33.05 15.25L32 17.8L30.95 15.25L28.4 14.2L30.95 13.15Z" fill="url(#oro-grad)"/>
+
+  <!-- Monograma arquitectónico A -->
+  <path d="M22.8 22.5L15.4 43.2" stroke="url(#oro-monograma)" stroke-width="1.45" stroke-linecap="square"/>
+  <path d="M22.8 22.5L29.6 43.2" stroke="url(#oro-monograma)" stroke-width="2.35" stroke-linecap="square"/>
+  <path d="M17.8 36.2H27.3" stroke="url(#oro-monograma)" stroke-width="1.25"/>
+  <path d="M13.2 43.2H18.1M27.1 43.2H31.8" stroke="url(#oro-monograma)" stroke-width="1.2"/>
+
+  <!-- Monograma arquitectónico R -->
+  <path d="M35.6 22.5V43.2" stroke="url(#oro-monograma)" stroke-width="2.3" stroke-linecap="square"/>
+  <path d="M33.2 22.5H37.8M33.2 43.2H38.2" stroke="url(#oro-monograma)" stroke-width="1.2"/>
+  <path d="M35.6 22.7H42.3C46.4 22.7 48.2 25.1 48.2 28.2C48.2 31.4 46.2 33.6 42.2 33.6H35.6" stroke="url(#oro-monograma)" stroke-width="1.75"/>
+  <path d="M41.2 33.6L47.9 43.2" stroke="url(#oro-monograma)" stroke-width="2.2" stroke-linecap="square"/>
+  <path d="M45.8 43.2H50.3" stroke="url(#oro-monograma)" stroke-width="1.2"/>
+
+  <!-- Filete base de equilibrio -->
+  <path d="M22 49.6H42" stroke="url(#oro-grad)" stroke-width="0.95" stroke-opacity="0.72"/>
+</svg>
